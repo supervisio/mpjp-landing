@@ -1,0 +1,5 @@
+# Static site, no build step. Netlify serves public/ as-is; headers live in public/_headers,
+# unknown paths get public/404.html automatically.
+[build]
+  publish = "public"
+  command = ""
