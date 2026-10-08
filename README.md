@@ -6,6 +6,7 @@ no build step, no cookies, no third-party requests (fonts are self-hosted).
 ```
 public/
   index.html    the landing page (hero, "Czym jest", contact)
+  security/     "Bezpieczeństwo" page, served at /security
   404.html      served by Netlify for unknown paths
   site.css      styles + @font-face (snapshot of the app's marketing-site stylesheet)
   fonts/        self-hosted Spectral, Hanken Grotesk, IBM Plex Mono

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bezpieczeństwo · Anamnesis</title>
+  <meta name="description" content="Jak Anamnesis chroni notatki: szyfrowanie po stronie przeglądarki, klucz wyprowadzany z Twojej frazy przez Argon2id, hosting w Unii Europejskiej." />
+  <link rel="canonical" href="https://mpjp.pl/security" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Anamnesis" />
+  <meta property="og:locale" content="pl_PL" />
+  <meta property="og:url" content="https://mpjp.pl/security" />
+  <meta property="og:title" content="Bezpieczeństwo · Anamnesis" />
+  <meta property="og:description" content="Jak Anamnesis chroni notatki: szyfrowanie po stronie przeglądarki, klucz wyprowadzany z Twojej frazy przez Argon2id, hosting w Unii Europejskiej." />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/site.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Przejdź do treści</a>
+  <header class="site-header">
+    <nav class="wrap site-nav" aria-label="Nawigacja główna">
+      <a class="brand" href="/" aria-label="Anamnesis — strona główna">
+        <span class="mark" aria-hidden="true"><span></span></span><span class="wordmark">Anamnesis</span>
+      </a>
+      <a class="nav-link" href="/security" aria-current="page">Bezpieczeństwo</a>
+      <a class="nav-login" href="mailto:kontakt@mpjp.pl">Napisz do nas</a>
+    </nav>
+  </header>
+  <main id="main">
+  <section class="on-dark">
+    <div class="wrap section">
+      <div class="security-grid">
+        <div>
+          <p class="eyebrow">Bezpieczeństwo danych</p>
+          <h1 class="section-title">Poufność wpisana w architekturę</h1>
+          <p class="security-lead">Dane pacjentów nie opuszczają Twojego urządzenia w formie czytelnej. Nawet my nie mamy technicznej możliwości ich odczytania.</p>
+          <ul class="security-badges">
+            <li><span class="dot" aria-hidden="true"></span>Zgodność z RODO i Ustawą o zawodzie psychologa (2026)</li>
+            <li><span class="dot" aria-hidden="true"></span>Hosting wyłącznie w Unii Europejskiej</li>
+          </ul>
+        </div>
+        <div class="security-cards">
+          <div class="security-card">
+            <p class="tag">Zero-Knowledge</p>
+            <h2>Brak dostępu dostawcy</h2>
+            <p>Dostarczamy zablokowaną kryptograficznie przestrzeń — bez technicznej możliwości odczytu treści.</p>
+          </div>
+          <div class="security-card">
+            <p class="tag">Client-Side</p>
+            <h2>Szyfrowanie u Ciebie</h2>
+            <p>AES-GCM z kluczem wyprowadzanym z Twojej frazy (Argon2id) — w Twojej przeglądarce.</p>
+          </div>
+          <div class="security-card">
+            <p class="tag">Pseudonimizacja</p>
+            <h2>Maskowanie danych</h2>
+            <p>Dane osobowe pacjentów zastępujemy pseudonimami po stronie serwera, w pamięci, zanim notatka trafi do modelu. Mapa pseudonimów wraca do Ciebie i nie zostaje u nas.</p>
+          </div>
+          <div class="security-card">
+            <p class="tag">Region UE</p>
+            <h2>Dane w Europie</h2>
+            <p>Hosting w UE (np. Warszawa), z dala od jurysdykcji CLOUD Act.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cta-band">
+    <div class="cta-inner">
+      <h2>Anamnesis jest w przygotowaniu</h2>
+      <p>Chcesz dowiedzieć się więcej albo dołączyć do pierwszych użytkowników? Napisz do nas.</p>
+      <a class="btn btn-solid" href="mailto:kontakt@mpjp.pl">kontakt@mpjp.pl</a>
+    </div>
+  </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="brand" href="/" aria-label="Anamnesis — strona główna">
+          <span class="mark" aria-hidden="true"><span></span></span><span class="wordmark">Anamnesis</span>
+        </a>
+        <p class="footer-about">Kliniczny notatnik dla psychoterapeutów. Poufność wpisana w architekturę.</p>
+      </div>
+      <div>
+        <p class="footer-heading">Produkt</p>
+        <ul class="footer-links">
+          <li><a href="/security">Bezpieczeństwo</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Kontakt</p>
+        <ul class="footer-links">
+          <li><a href="mailto:kontakt@mpjp.pl">kontakt@mpjp.pl</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div class="wrap footer-bar-inner">
+        <span>© 2026 Anamnesis. Wszelkie prawa zastrzeżone.</span>
+        <span class="footer-residency"><span class="dot" aria-hidden="true"></span>Dane przetwarzane w UE · zgodność z RODO</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
